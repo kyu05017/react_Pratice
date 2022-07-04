@@ -7,7 +7,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <MC name="React" age="20" />
+                <MC name="React" age=20 />
                 <EP />
 
             </div>
