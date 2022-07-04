@@ -27,6 +27,12 @@ class EventPractice extends Component {
         })
     }
 
+    handleKeyPress(event) {
+        if(event.key === 'Enter'){
+            this.handleClick();
+        }
+    }
+
     render() {
         return (
             <div>
