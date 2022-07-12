@@ -5,7 +5,8 @@ import './App.css';
 //import Lifecycle2 from './practice/R005_LifecycleEx'
 //import Lifecycle3 from './practice/R006_LifecycleEx'
 //import Lifecycle4 from './practice/R007_LifecycleEx'
-import Lifecycle5 from './practice/R008_LifecycleEx'
+//import Lifecycle5 from './practice/R008_LifecycleEx'
+import Es6 from './practice/R009_Es6'
 
 class App extends Component {
     render() {
@@ -27,7 +28,7 @@ class App extends Component {
                     prop_value="formApp.js"
                />
                */}
-
+                <Es6/>
             </div>
         );
     }
