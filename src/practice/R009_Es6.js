@@ -20,6 +20,8 @@ class R009_Es6 extends Component {
         console.log('1 : ' + LongString.startWith("Es6에"));
         console.log('2 : ' + LongString.startWith("입니다."));
         console.log('3 : ' + LongString.include("추가된 String"));
+
+
     }
 
     render() {
