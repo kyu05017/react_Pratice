@@ -17,11 +17,9 @@ class R009_Es6 extends Component {
         console.log(' ${Es6String} 문자열 ${Es6String2}!! ___ 다음줄 입니다.' );
 
         var LongString = 'Es6에 추가된 String 함수들 입니다.';
-        console.log('1 : ' + LongString.startWith("Es6에"));
-        console.log('2 : ' + LongString.startWith("입니다."));
-        console.log('3 : ' + LongString.include("추가된 String"));
-
-
+        //console.log('1 : ' + LongString.startsWith("Es6에"));
+        //console.log('2 : ' + LongString.endWith("입니다."));
+        //console.log('3 : ' + LongString.include("추가된 String"));
     }
 
     render() {
