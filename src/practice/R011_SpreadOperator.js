@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-class R011_SpreadOpertor extends Component {
+class R011_SpreadOperator extends Component {
     constructor(props) {
         super(props);
         this.state={};
@@ -29,11 +29,16 @@ class R011_SpreadOpertor extends Component {
 
         // ES6 Object
         var sumLetObj = { ...varObj1, ...varObj2 };
-        console.log(  )
+        console.log( 'sumLetObj : ' + JSON.stringify(sumLetObj));
 
+        var {key1, key2, ...others} = sumLetObj;
+        console.log('key1 :'+ key1 +'key2 :'+ key2 + ' others : ' +  JSON.stringify(sumLetObj));
+    }
 
-
-
+    render() {
+        return(
+            <h2> [This is SpreadOperator] </h2>
+        )
     }
 }
-export default R011_SpreadOpertor;
+export default R011_SpreadOperator;
